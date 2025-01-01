@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header h1 {
+    font-size: 32px;
+    margin: 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #333;
+}
+.header h2 {
+    font-size: 20px;
+    color: #555;
+    margin: 10px 0 20px;
+}
+.table {
+    display: table;
+    width: 100%;
+}
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+    vertical-align: top;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+}
+.cell:last-child {
+    border-right: none;
+}
+h2 {
+    font-size: 20px;
+    color: #444;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin: 5px 0;
+}
+.job-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.header h2 {
+    font-size: 20px;
+    color: #555;
+    margin: 10px 0 0; /* Adds space above the job title */
+}
+.header h1 {
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #333;
+    letter-spacing: 4px; /* Adds spacing between letters */
+}
